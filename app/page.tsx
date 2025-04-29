@@ -7,15 +7,14 @@ import ClientLogos from "@/src/components/ClientLogos"
 import Footer from "@/src/components/Footer";
 export default function Home() {
   return (
-   <>
-
-  <Header></Header>
-  <HeroSection></HeroSection>
-   <ServicesSection></ServicesSection>
-   <ProjectSection/>
-    <ClientLogos></ClientLogos>
-   <BusinessSection></BusinessSection>
-   <Footer></Footer>
-   </>
+    <>
+      <Header></Header>
+      <HeroSection></HeroSection>
+      <ServicesSection></ServicesSection>
+      <ProjectSection />
+      <ClientLogos></ClientLogos>
+      <BusinessSection></BusinessSection>
+      <Footer></Footer>
+    </>
   );
 }
