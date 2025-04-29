@@ -6,39 +6,39 @@ const projects = [
   {
     title: 'App Development',
     category: 'DEVELOPMENT',
-    image: '/images/project2.png',
+    image: '/images/project4.png',
   },
   {
-    title: 'Software Development',
+    title: 'CMS Development',
     category: 'SOFTWARE',
-    image: '/images/project2.png',
+    image: '/images/project4.png',
   },
   {
     title: 'Project for Marketing',
     category: 'MARKETING',
-    image: '/images/project2.png',
+    image: '/images/project4.png',
   },
   {
     title: 'App Development',
     category: 'DEVELOPMENT',
-    image: '/images/project2.png',
+    image: '/images/project4.png',
   },
-  {
-    title: 'Digital Product Design',
-    category: 'DESIGN',
-    image: '/images/project2.png',
-  },
+  // {
+  //   title: 'Product Design',
+  //   category: 'DESIGN',
+  //   image: '/images/project2.png',
+  // },
 ];
 
 export default function ProjectSection() {
   return (
-    <section className="bg-[#04081C] py-20 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-[#04081C] py-15 px-2 sm:px-10 sm:py-15  max-w-7xl mx-auto mt-20">
+      <div className="">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-10">
         Explore Our Recent <span className="text-orange-500">Projects.</span>
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6 overflow-x-auto scrollbar-hide">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 overflow-x-auto scrollbar-hide">
           {projects.map((project, index) => (
             <div key={index} className="bg-[#171a2b] rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-56">
