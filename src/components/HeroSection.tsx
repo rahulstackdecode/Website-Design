@@ -8,7 +8,6 @@ export default function HeroSection() {
 
                 <div className="heroleft-content">
                     <div className="relative">
-                        
                         <div className="text-banner z-10">
                         <p className="text-sm text-orange-500 font-semibold uppercase mb-4 flex items-center gap-2">
                             <span className="w-6 h-1 bg-orange-500 inline-block rounded"></span>
