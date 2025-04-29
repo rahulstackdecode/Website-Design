@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function HeroSection() {
     return (
         <section className="bg-[#0A0D1C] text-white py-10 px-6 lg:pl-6 lg:py-0 lg:pr-0">
-            <div className="grid md:grid-cols-2 items-center gap-10 max-w-[1800px] mx-auto">
+            <div className="grid md:grid-cols-2 items-center gap-10 max-w-[1800px] mx-auto overflow-hidden">
 
                 <div className="heroleft-content">
                     <div className="relative">
