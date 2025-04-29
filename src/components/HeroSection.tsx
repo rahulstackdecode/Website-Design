@@ -8,6 +8,8 @@ export default function HeroSection() {
 
                 <div className="heroleft-content">
                     <div className="relative">
+                        
+                        <div className="text-banner z-10">
                         <p className="text-sm text-orange-500 font-semibold uppercase mb-4 flex items-center gap-2">
                             <span className="w-6 h-1 bg-orange-500 inline-block rounded"></span>
                             Best IT Solution Provider
@@ -39,6 +41,7 @@ export default function HeroSection() {
                                 </span>
                             </div>
                         </div>
+                        </div>
 
                         <div className="absolute -top-[50px] -left-[154px] z-[12] animate-rotateme">
                             <Image
@@ -49,10 +52,7 @@ export default function HeroSection() {
                                 className="rounded-lg ml-auto"
                             />
                         </div>
-
-
-
-                    </div>
+                     </div>
 
                 </div>
                 <div className="relative hidden sm:flex">
@@ -61,7 +61,7 @@ export default function HeroSection() {
                         alt="Presentation"
                         width={800}
                         height={500}
-                        className="rounded-lg relative z-12 ms-auto animate-rotateme "
+                        className="rounded-lg relative z-12 ms-auto"
                     />
                 </div>
             </div>
