@@ -9,7 +9,6 @@ export default function Footer() {
   return (
     <footer className="bg-[#0e1630] text-gray-300 pt-16 pb-4 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
-        {/* Column 1 - Logo + Description */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">Solutek</h2>
           <p className="text-sm leading-relaxed">
@@ -32,10 +31,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Column 2 - Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-[14px]">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/services">Services</Link></li>
             <li><Link href="/about">About Us</Link></li>
@@ -43,20 +41,18 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 3 - Contact Info */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
-          <ul className="text-sm space-y-2">
-            <li className="flex items-center gap-2"><IoLocation/> 123 Tech Street, New York, USA</li>
-            <li className="flex items-center gap-2"><FaPhoneAlt /> +1 234 567 890</li>
-            <li className="flex items-center gap-2"><MdEmail/> info@solutek.com</li>
+          <ul className="text-[14px] space-y-2 flex gap-2 flex-col">
+            <li className="flex items-center gap-2"><IoLocation className="text-[20px] text-white"/> 123 Tech Street, New York, USA</li>
+            <li className="flex items-center gap-2"><FaPhoneAlt className="text-[20px] text-white" /> +1 234 567 890</li>
+            <li className="flex items-center gap-2"><MdEmail className="text-[20px] text-white"/> info@solutek.com</li>
           </ul>
         </div>
 
-        {/* Column 4 - Newsletter */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Newsletter</h3>
-          <p className="text-sm mb-4">
+          <p className="text-[14px] mb-4">
             Subscribe to our newsletter and stay updated on our latest solutions.
           </p>
           <form className="flex">
